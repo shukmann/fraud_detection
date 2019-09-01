@@ -13,16 +13,17 @@ The project is to predict probability of fraud transaction on transaction and id
 6. Train a LightGBM model
 
 ## Data
-There are two data files -  transaction and identity while can be download from [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/data) kaggle competition page
+There are two data files -  transaction and identity while can be download from [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/data) kaggle competition page.
+
 Categorical Features - Transaction
-    - ProductCD
-    - card1 - card6
-    - addr1, addr2
-    - P_emaildomain
-    - R_emaildomain
-    - M1 - M9
+        - ProductCD
+        - card1 - card6
+        - addr1, addr2
+        - P_emaildomain
+        - R_emaildomain
+        - M1 - M9
 Categorical Features - Identity
-    - DeviceType
-    - DeviceInfo
-    - id_12 - id_38
+        - DeviceType
+        - DeviceInfo
+        - id_12 - id_38
 
