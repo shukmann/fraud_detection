@@ -5,7 +5,6 @@ The project is to predict probability of fraud transaction on transaction and id
 
 ## Code
 `fraud_detection.ipynb`
-Main steps in the notebook
 1. Data cleansing for transaction device
 2. Get hour in a day from transactions (as check in EDA, day of week/month are not significant, while hour is significant that some hour with low #transaction and high #fraud)
 3. Grouping transaction amount - there are many unique value in transaction amount, which model doesn't generalize well. The amount are aggregated in terms of mean and standard deviation by different cards / combination of cards to create 10 new features
