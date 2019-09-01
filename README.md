@@ -7,7 +7,7 @@ The project is to predict probability of fraud transaction on transaction and id
 `fraud_detection.ipynb`
 1. Data cleansing for transaction device
 2. Get hour in a day from transactions (as check in EDA, day of week/month are not significant, while hour is significant that some hour with low #transaction and high #fraud)
-3. Grouping transaction amount - there are many unique value in transaction amount, which model doesn't generalize well. The amount are aggregated in terms of mean and standard deviation by different cards / combination of cards to create 10 new features
+3. Grouping transaction amount - there are many unique value in transaction amount, which model doesn't generalize well on. The amount are aggregated in terms of mean and standard deviation by different cards / combination of cards to create 10 new features. Dropped original transaction amount before training.
 4. label encoding for categorical variables
 5. check max and min size of numeric variables so as to change it to a smaller type i.e. int8 for less memory consumption
 6. Train a LightGBM model
